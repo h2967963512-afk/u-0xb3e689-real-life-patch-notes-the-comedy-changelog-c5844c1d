@@ -8,6 +8,8 @@ Python 3.13, standard library only, no network.
 # recognisable bug where walking through a doorway wipes the reason
 # you entered the room. Version number, terse engineering register,
 # fix stated as if it shipped.
+# Revision note: re-read the gate after running; the version prefix
+# counts toward the 160 characters.
 import os
 
 TEXT = (
